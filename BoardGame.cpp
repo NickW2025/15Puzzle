@@ -85,7 +85,7 @@ namespace BoardGame {
     uint v2 = i2;
     i1 = v2;
     i2 = v1;
-  } //switchValues()
+  } //swapValues()
 
   std::istream& operator>>(std::istream& is, Input& i) {
     char c{};
