@@ -58,16 +58,16 @@ namespace BoardGame {
     uint ni_y = ni % 4;
     switch (i) {
       case DOWN:        
-        if (ni_x >= 1) switchValues(access(ni_x, ni_y), access(ni_x - 1, ni_y));
+        if (ni_x >= 1) swapValues(access(ni_x, ni_y), access(ni_x - 1, ni_y));
         break;
       case UP:
-        if (ni_x < 3) switchValues(access(ni_x, ni_y), access(ni_x +1, ni_y));
+        if (ni_x < 3) swapValues(access(ni_x, ni_y), access(ni_x +1, ni_y));
         break;
       case RIGHT:
-        if (ni_y >= 1) switchValues(access(ni_x, ni_y), access(ni_x, ni_y - 1));
+        if (ni_y >= 1) swapValues(access(ni_x, ni_y), access(ni_x, ni_y - 1));
         break;
       case LEFT:
-        if (ni_y < 3) switchValues(access(ni_x, ni_y), access(ni_x, ni_y + 1));
+        if (ni_y < 3) swapValues(access(ni_x, ni_y), access(ni_x, ni_y + 1));
         break;
       default:
         break;
@@ -80,7 +80,7 @@ namespace BoardGame {
     }
   } //getNullIndex()
 
-  void Board::switchValues(uint& i1, uint& i2) {
+  void Board::swapValues(uint& i1, uint& i2) {
     uint v1 = i1;
     uint v2 = i2;
     i1 = v2;

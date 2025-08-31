@@ -31,7 +31,7 @@ namespace BoardGame {
       uint& access(uint x, uint y);
       uint access(uint x, uint y) const;
       uint getNullIndex() const;
-      void switchValues(uint&, uint&);
+      void swapValues(uint&, uint&);
       void randomize();
   }; //class Board
 
