@@ -1,0 +1,70 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# debug information files
+*.dwo
+*.vsidx
+/.vs/15Puzzle/v17
+/.vs/15Puzzle/v17/.suo
+/.vs/15Puzzle/v17/Browse.VC.db
+/.vs/15Puzzle/v17/Browse.VC.db-shm
+/.vs/15Puzzle/v17/Browse.VC.db-wal
+/.vs/15Puzzle/v17/Browse.VC.opendb
+/.vs/15Puzzle/v17/DocumentLayout.backup.json
+/.vs/15Puzzle/v17/DocumentLayout.json
+/.vs/15Puzzle/v17/ipch/AutoPCH
+/.vs/15Puzzle/v17/ipch/AutoPCH/3435ee88bbb4df64
+/.vs/15Puzzle/v17/ipch/AutoPCH/3435ee88bbb4df64/MAIN.ipch
+/.vs/15Puzzle/v17/ipch/AutoPCH/d9d46a5af76c89bd
+/.vs/15Puzzle/v17/ipch/AutoPCH/d9d46a5af76c89bd/BOARD.ipch
+/.vs/15Puzzle/v17/ipch/AutoPCH/f1500b47b778ab63
+/.vs/15Puzzle/v17/ipch/AutoPCH/f1500b47b778ab63/BOARDGAME.ipch
+/15Puzzle/x64/Debug
+/15Puzzle/x64/Debug/15Puzzle.exe.recipe
+/15Puzzle/x64/Debug/15Puzzle.log
+/15Puzzle/x64/Debug/15Puzzle.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/15Puzzle.lastbuildstate
+/15Puzzle/x64/Debug/15Puzzle.tlog/CL.command.1.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/Cl.items.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/CL.read.1.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/CL.write.1.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/link.command.1.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/link.read.1.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/link.secondary.1.tlog
+/15Puzzle/x64/Debug/15Puzzle.tlog/link.write.1.tlog
+/15Puzzle/x64/Debug/vc143.idb
+/15Puzzle.sln
+/15Puzzle.vcxproj
+/15Puzzle.vcxproj.filters
+/15Puzzle.vcxproj.user
